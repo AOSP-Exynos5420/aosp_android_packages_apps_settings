@@ -265,12 +265,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     }
 
     private static boolean isDozeAvailable(Context context) {
-        String name = Build.IS_DEBUGGABLE ? SystemProperties.get("debug.doze.component") : null;
-        if (TextUtils.isEmpty(name)) {
-            name = context.getResources().getString(
-                    com.android.internal.R.string.config_dozeComponent);
-        }
-        return !TextUtils.isEmpty(name);
+        return true
     }
 
     private static boolean isTapToWakeAvailable(Resources res) {
