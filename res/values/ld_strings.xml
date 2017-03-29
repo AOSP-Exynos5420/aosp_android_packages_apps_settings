@@ -19,4 +19,19 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
+    <!-- Label for the country code of the connection -->
+    <string name="wifi_country_code">Country code</string>
+
+    <!-- Wi-Fi settings screen, setting title for setting the band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequency band</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <string name="wifi_setting_country_code_title">Wi\u2011Fi country code</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi country code [CHAR LIMIT=50]-->
+    <string name="wifi_setting_country_code_summary">Specify the country code of operation</string>
+    <!-- Wi-Fi settings screen, error message when the country code could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_country_code_error">There was a problem setting the country code.</string>
+
 </resources>
